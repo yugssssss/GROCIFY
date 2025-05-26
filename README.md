@@ -1,6 +1,6 @@
-# 🛒 Blinket - Blinkit Clone in React Native
+# 🛒 Grocify - React Native
 
-Blinket is a Blinkit-inspired grocery delivery app built using **React Native** for the frontend and **Express.js + MongoDB** for the backend. It supports features like real-time product listing, cart management, and order placement.
+Grocify is a Blinkit-inspired grocery delivery app built using **React Native** for the frontend and **Express.js + MongoDB** for the backend. It supports features like real-time product listing, cart management, and order placement.
 
 ---
 
