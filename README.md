@@ -1,51 +1,48 @@
-🛒 GROCIFY – Full Stack Grocery Delivery App
 
-GROCIFY is a full-stack grocery delivery application inspired by real-world platforms like Blinkit. The project focuses on building a scalable backend, clean API design, and a modern React Native frontend.
+# 🛒 GROCIFY – Full Stack Grocery Delivery App
 
-🚀 Features
+GROCIFY is a full-stack grocery delivery application inspired by real-world platforms like Blinkit. The project focuses on building a **scalable backend**, clean API design, and a modern **React Native frontend**.
 
-User authentication & authorization
+---
 
-Product listing with categories
+## 🚀 Features
 
-Cart management
+* User authentication & authorization
+* Product listing with categories
+* Cart management
+* Order placement flow
+* Admin-side management (products, users, orders)
+* RESTful APIs for frontend–backend communication
 
-Order placement flow
+---
 
-Admin-side management (products, users, orders)
+## 🧱 Tech Stack
 
-RESTful APIs for frontend–backend communication
+### Frontend
 
-🧱 Tech Stack
-Frontend
+* React Native
+* JavaScript / TypeScript
+* Tailwind / NativeWind
+* Axios
 
-React Native
+### Backend
 
-JavaScript / TypeScript
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
 
-Tailwind / NativeWind
+### Tools & Others
 
-Axios
+* Git & GitHub
+* REST APIs
+* Environment-based configuration
 
-Backend
+---
 
-Node.js
+## 📂 Project Structure
 
-Express.js
-
-MongoDB
-
-Mongoose
-
-Tools & Others
-
-Git & GitHub
-
-REST APIs
-
-Environment-based configuration
-
-📂 Project Structure
+```
 GROCIFY/
 │
 ├── src/                # Frontend source code
@@ -60,54 +57,66 @@ GROCIFY/
 ├── ios/                # iOS native config
 ├── package.json
 └── README.md
+```
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/yugssssss/GROCIFY.git
 cd GROCIFY
+```
 
-2️⃣ Backend setup
+### 2️⃣ Backend setup
+
+```bash
 cd Server
 npm install
 npm start
+```
 
+> Create a `.env` file inside `Server/` and add required environment variables.
 
-Create a .env file inside Server/ and add required environment variables.
+### 3️⃣ Frontend setup
 
-3️⃣ Frontend setup
+```bash
 npm install
 npx react-native run-android
+```
 
-🧠 Learning Outcomes
+---
 
-Designed scalable backend APIs
+## 🧠 Learning Outcomes
 
-Hands-on experience with MongoDB data modeling
+* Designed scalable backend APIs
+* Hands-on experience with MongoDB data modeling
+* Managed frontend–backend integration
+* Improved understanding of real-world app architecture
+* Practiced Git version control & project structuring
 
-Managed frontend–backend integration
+---
 
-Improved understanding of real-world app architecture
+## 📌 Future Improvements
 
-Practiced Git version control & project structuring
+* Payment gateway integration
+* Performance optimization
+* Deployment on cloud platform
 
-📌 Future Improvements
+---
 
-Payment gateway integration
+## 👤 Author
 
-Order tracking (real-time)
-
-Role-based access control
-
-Performance optimization
-
-Deployment on cloud platform
-
-👤 Author
-
-Yugshrestha Rathore
+**Yugshrestha Rathore**
 Computer Science student
 Focused on backend development, data structures, and full-stack engineering.
 
-⭐ If you like this project
+---
+
+## ⭐ If you like this project
 
 Feel free to ⭐ the repository and explore the code.
+
+---
